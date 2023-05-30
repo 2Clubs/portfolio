@@ -25,4 +25,5 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 1.1rem;
   color: var(--color-white);
+  transition: all 0.4 ease-in-out;
 }/*# sourceMappingURL=styles.css.map */
