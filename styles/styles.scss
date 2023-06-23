@@ -60,10 +60,12 @@ section {
 .sec1 {
     display: none;
     transform: translateY(0) scale(1);
+    background-color: #27AE60;
 }
 .sec2 {
     display: none;
     transform: translateY(0) scale(1);
+    background-color: blue;
 }
 .sec3 {
     display: none;
@@ -76,6 +78,18 @@ section {
 .sec5 {
     display: none;
     transform: translateY(0) scale(1);
+}
+.active {
+    display: block;
+    animation: scaleAnimation 1s ease-in-out;
+    @keyframes scaleAnimation {
+        0% {
+            transform: translateY(-100%) scaleY(0);
+        }
+        100% {
+            transform: translateY(0%) scaleY(1);
+        }
+    }
 }
 .controls {
     position: fixed;
