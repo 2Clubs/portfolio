@@ -299,16 +299,25 @@ section {
   width: 75%;
 }
 .about-stats .progress-bars .progress-bar .progress-container .progress .css {
-  width: 60%;
+  width: 35%;
 }
 .about-stats .progress-bars .progress-bar .progress-container .progress .javascript {
-  width: 30%;
+  width: 50%;
 }
 .about-stats .progress-bars .progress-bar .progress-container .progress .react {
   width: 30%;
 }
 .about-stats .progress-bars .progress-bar .progress-container .progress .java {
   width: 40%;
+}
+.about-stats .progress-bars .progress-bar .progress-container .progress .python {
+  width: 60%;
+}
+.about-stats .progress-bars .progress-bar .progress-container .progress .cpp {
+  width: 10%;
+}
+.about-stats .progress-bars .progress-bar .progress-container .progress .csharp {
+  width: 10%;
 }
 
 .button-container {
