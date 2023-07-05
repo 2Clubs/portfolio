@@ -250,6 +250,67 @@ section {
   padding: 1rem;
   color: var(--color-gray-1);
 }
+.about-container .left-about h4 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.about-stats {
+  padding-bottom: 4rem;
+}
+.about-stats .progress-bars {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+.about-stats .progress-bars .progress-bar {
+  display: flex;
+  flex-direction: column;
+}
+.about-stats .progress-bars .progress-bar .progress-title {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.about-stats .progress-bars .progress-bar .progress-container {
+  display: flex;
+  align-items: center;
+}
+.about-stats .progress-bars .progress-bar .progress-container .progress-text {
+  color: var(--color-gray-2);
+}
+.about-stats .progress-bars .progress-bar .progress-container .progress {
+  width: 100%;
+  height: 0.45rem;
+  background-color: var(--color-gray-4);
+  margin-left: 1rem;
+  position: relative;
+}
+.about-stats .progress-bars .progress-bar .progress-container .progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: var(--color-secondary);
+  transition: all 0.4s ease-in-out;
+  width: 60%;
+}
+.about-stats .progress-bars .progress-bar .progress-container .progress .html {
+  width: 75%;
+}
+.about-stats .progress-bars .progress-bar .progress-container .progress .css {
+  width: 60%;
+}
+.about-stats .progress-bars .progress-bar .progress-container .progress .javascript {
+  width: 30%;
+}
+.about-stats .progress-bars .progress-bar .progress-container .progress .react {
+  width: 30%;
+}
+.about-stats .progress-bars .progress-bar .progress-container .progress .java {
+  width: 40%;
+}
+
 .button-container {
   display: flex;
   align-self: flex-start;
